@@ -1,0 +1,93 @@
+body {
+  background-image: url('./images/herculesCorona.jpg');
+  background-size: cover;
+  font-family: 'Orbitron', sans-serif;
+  display: grid;
+
+}
+
+.matrix{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px; /* Espaço entre os blocos */
+  height: 70vh; /* Ajuste a altura conforme necessário */
+}
+
+/* Estilo para os contêineres */
+.containerD {
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: transparent;
+}
+
+.containerM {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: transparent;
+  }
+
+/* Estilo para os blocos */
+.block {
+background-color: #cbc8c8;
+border-radius: 25px;
+height: 95%;
+padding-top: 10px;
+}
+
+h1 {
+color: rgb(255, 255, 255); 
+text-align: center;
+}
+
+h2 {
+  color: rgb(14, 14, 58); 
+  text-align: center;
+  }
+
+.start {
+  width: 20%;
+  height: 300%;
+  margin-left: 38.5%;
+  border-radius: 25px;
+  font-family: 'Share Tech Mono', sans-serif;
+  font-weight: bold ;
+  color: azure;
+  background: linear-gradient(to left, #111652, #42a3de);
+  cursor: pointer; /* Transforme o cursor em uma mão ao passar o mouse sobre o botão */
+  animation: gradientChange 2s;
+  
+}
+
+button:hover {
+  background: linear-gradient(to left, #42a3de, #111652); /* Altere o gradiente quando o cursor passar */
+  animation: none;
+
+}
+
+@keyframes gradientChange {
+  0% {
+    background: linear-gradient(to left, #111652, #42a3de); 
+  }
+  100% {
+    background: linear-gradient(to left, #42a3de, #111652);
+  }
+  }
+/* 
+#launchResourceData {
+background-color: black;
+}
+
+#trajectoryData {
+background-color: black;
+}
+
+#orbitData {
+background-color: black;
+}
+
+#mainData {
+background-color: black;
+} */
